@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/046dd30d2f.js" crossorigin="anonymous"></script>
+    <title id="title">Imperial-Metric Converter</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <div class="header" id="header">
+        <h1>Imperial-Metric Converter</h1>
+    </div>
+    <div class="container">
+        <div class="display" id="display">
+            Imperial to Metric
+        </div>
+            <div class="numberInput">
+            <input type="number" name="number" id="number" value="0">
+            <select id="imperialUnit">
+                <option value="in">Inch</option>
+                <option value="ft">Foot</option>
+                <option value="yd">Yard</option>
+                <option value="mi">Mile</option>
+            </select>
+            <div class="seperator">to</div>
+            <select id="metricUnit">
+                <option value="mm">Millimeter</option>
+                <option value="cm">Centimeter</option>
+                <option value="m">Meter</option>
+                <option value="km">Kilometer</option>
+            </select>
+
+        </div>
+
+        <div class="buttonDisplay">
+            <button class="btn" id="toggle" onclick="convert()">Calculate</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
