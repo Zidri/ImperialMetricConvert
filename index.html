@@ -20,8 +20,10 @@
         <div class="display" id="display">
             Imperial to Metric
         </div>
-            <div class="numberInput">
+        <div class="numberInput">
             <input type="number" name="number" id="number" value="0">
+        </div>
+        <div class="unitInput" id="unitInput">
             <select id="imperialUnit">
                 <option value="in">Inch</option>
                 <option value="ft">Foot</option>
@@ -35,11 +37,14 @@
                 <option value="m">Meter</option>
                 <option value="km">Kilometer</option>
             </select>
-
         </div>
 
+
+
+
         <div class="buttonDisplay">
-            <button class="btn" id="toggle" onclick="convert()">Calculate</button>
+            <button class="btn" id="toggle" onclick="toggle()">Metric to Imperial</button>
+            <button class="btn" id="convert" onclick="convert()">Calculate</button>
         </div>
 
     </div>

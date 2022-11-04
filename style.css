@@ -58,7 +58,7 @@ h2 {
 }
 
 /*answer display*/
-.display{
+.display {
     font-family: 'Kanit', sans-serif;
     font-weight: 400;
     color: #4C061D;
@@ -77,19 +77,19 @@ h2 {
 }
 
 /*number input*/
-.numberInput{
+.numberInput {
     display: flex;
     align-items: center;
 }
+
 .numberInput input {
-    width: 4rem;
-    height: 1.5rem;
+    width: 15rem;
     text-align: center;
 
     font-family: 'Abril Fatface', cursive;
     font-weight: 600;
     color: #4C061D;
-    font-size: 1rem;
+    font-size: 2.5rem;
 
     /*hide box styling*/
     border-top-style: hidden;
@@ -98,7 +98,18 @@ h2 {
     border-bottom-style: groove;
     background-color: #F1F7EE;
 }
-.numberInput .seperator{
+
+/*unit input*/
+.unitInput {
+    display: flex;
+    align-items: center;
+}
+.unitInput select{
+    width: 6rem;
+    text-align: center;
+}
+
+.unitInput .seperator {
     margin: 0 1rem 0 1rem;
     font-size: 1.5rem;
 }
